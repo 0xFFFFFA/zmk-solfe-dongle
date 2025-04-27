@@ -55,7 +55,7 @@
         #binding-cells = <0>;
         bindings = <&kp LEFT_SHIFT>, <&kp CAPSLOCK>;
 
-        tapping-term-ms = <80>;
+        tapping-term-ms = <150>;
     };
 
     behaviors {
