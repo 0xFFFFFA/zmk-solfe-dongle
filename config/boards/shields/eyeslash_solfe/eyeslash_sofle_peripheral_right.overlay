@@ -47,7 +47,7 @@
             low-power-enable;
         };
     };
-}
+};
 
 nice_view_spi: &spi0 {
     compatible = "nordic,nrf-spim";
