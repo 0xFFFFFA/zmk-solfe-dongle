@@ -54,7 +54,7 @@ layers:
   - {t: /, s: '?'}
   - {t: '=', s: +}
   - $$mdi:volume-off$$
-  - RGB TOG
+  - {t: '$$mdi:backspace$$', type: backspace}
   - LWIN
   - $$mdi:apple-keyboard-option$$
   - {t: ',', h: L1, s: <}
