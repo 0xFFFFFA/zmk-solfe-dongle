@@ -27,7 +27,7 @@ layers:
   - O
   - P
   - {t: \, s: '|'}
-  - $$mdi:apple-keyboard-shift$$
+  - '&LS_CLCK'
   - A
   - S
   - D
