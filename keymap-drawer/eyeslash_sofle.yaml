@@ -80,10 +80,10 @@ layers:
   - F12
   - {t: '$$mdi:transfer$$', type: trans}
   - RGB TOG
-  - {t: '$$mdi:transfer$$', type: trans}
+  - Ctl+Sft+1
   - Alt+Ctl+$$mdi:backspace-reverse-outline$$
   - Sft+$$mdi:keyboard-esc$$
-  - Ctl+Sft+1
+  - {t: Sft+`, s: Sft+~}
   - F6
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
   - F7
