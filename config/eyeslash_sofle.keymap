@@ -79,11 +79,11 @@
 
         layer_1 {
             bindings = <
-&kp TILDE        &kp F1                &kp F2           &kp F3           &kp F4           &kp F5             &mmv MOVE_UP     &kp F8          &kp F9           &kp F10          &kp F11          &kp F12           &trans
-&rgb_ug RGB_TOG  &kp LC(LS(NUMBER_1))  &kp LA(LC(DEL))  &kp LS(ESCAPE)   &kp LS(GRAVE)    &kp F6             &mmv MOVE_DOWN   &kp F7          &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp MINUS         &kp EQUAL
-&kp CAPSLOCK     &kp TILDE             &trans           &kp LG(D)        &kp LG(SPACE)    &kp LG(L)          &mmv MOVE_LEFT   &trans          &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp LEFT_BRACKET  &kp RIGHT_BRACKET
-&rgb_ug RGB_BRI  &rgb_ug RGB_BRD       &kp LA(F4)       &rgb_ug RGB_EFF  &rgb_ug RGB_EFR  &rgb_ug RGB_SPI    &mmv MOVE_RIGHT  &kp KP_NUMLOCK  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &trans            &trans
-&kp C_MUTE       &trans                &trans           &trans           &trans           &trans             &mkp LCLK        &trans          &trans           &trans           &kp KP_NUMBER_0  &trans
+&kp TILDE     &kp F1                &kp F2           &kp F3          &kp F4         &kp F5       &mmv MOVE_UP     &kp F8          &kp F9           &kp F10          &kp F11          &kp F12           &trans
+&trans        &kp LC(LS(NUMBER_1))  &kp LA(LC(DEL))  &kp LS(ESCAPE)  &kp LS(GRAVE)  &kp F6       &mmv MOVE_DOWN   &kp F7          &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp MINUS         &kp EQUAL
+&kp CAPSLOCK  &kp TILDE             &trans           &kp LG(D)       &kp LG(SPACE)  &kp LG(L)    &mmv MOVE_LEFT   &trans          &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp LEFT_BRACKET  &kp RIGHT_BRACKET
+&trans        &trans                &kp LA(F4)       &trans          &trans         &trans       &mmv MOVE_RIGHT  &kp KP_NUMLOCK  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &trans            &trans
+&kp C_MUTE    &trans                &trans           &trans          &trans         &trans       &mkp LCLK        &trans          &trans           &trans           &kp KP_NUMBER_0  &trans
             >;
 
             display-name = "L1";
@@ -95,7 +95,7 @@
 &kp TILDE  &bt BT_SEL 0  &bt BT_SEL 1    &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    &mmv MOVE_UP     &trans  &trans      &trans        &trans      &trans       &trans
 &trans     &bt BT_CLR    &bt BT_CLR_ALL  &trans        &trans        &trans          &mmv MOVE_DOWN   &trans  &kp HOME    &kp UP_ARROW  &kp END     &kp UNDER    &kp PLUS
 &trans     &out OUT_USB  &out OUT_BLE    &trans        &trans        &trans          &mmv MOVE_LEFT   &trans  &kp LEFT    &kp DOWN      &kp RIGHT   &kp LBRC     &kp RBRC
-&trans     &sys_reset    &trans          &bootloader   &trans        &trans          &mmv MOVE_RIGHT  &trans  &kp INSERT  &sys_reset    &kp DELETE  &bootloader  &trans
+&trans     &sys_reset    &trans          &bootloader   &trans        &trans          &mmv MOVE_RIGHT  &trans  &kp INSERT  &sys_reset    &kp DELETE  &bootloader  &rgb_ug RGB_TOG
 &trans     &trans        &trans          &trans        &trans        &trans          &mkp LCLK        &trans  &trans      &trans        &trans      &soft_off
             >;
 
